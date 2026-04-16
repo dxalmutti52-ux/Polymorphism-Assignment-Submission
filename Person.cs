@@ -1,0 +1,19 @@
+﻿using System;
+
+namespace MethodsAndObjectsAssignment
+{
+    public class Person
+    {
+        //Create a class called Person and give it two properties, each of data type string
+        //One called FirstName, the other LastName
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+
+        //Give the class a void method called SayName() that takes no parameters and simply writes
+        //"Name: [full name]" to the console
+        public void SayName()
+        {
+            Console.WriteLine("Name: " + this.FirstName + " " + this.LastName);
+        }
+    }
+}
